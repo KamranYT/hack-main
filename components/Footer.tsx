@@ -20,7 +20,7 @@ const Footer = () => (
           />
           <button
             type="submit"
-            className="relative right-3 top-1/2 transform -translate-y-1/2 w-[135px] h-[44px] text-white bg-[#FB2E86]"
+            className="xl:relative right-3 top-1/2 transform mt-5 pr-3 -translate-y-1/2 w-[135px] h-[44px] text-white bg-[#FB2E86]"
           >
             Sign Up
           </button>
@@ -51,13 +51,13 @@ const Footer = () => (
       </div>
     </div>
 
-    <div className='flex justify-center gap-[600px] items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10'>
+    <div className='flex justify-center xl:gap-[600px] items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10'>
     <p className='text-base text-gray-700'>
            &copy;Webecy - All right reserved
         </p>
 
       
-      <div className="flex gap-4">
+      <div className="flex xl:gap-4 gap-6">
       <a href="#" aria-label="LinkedIn" className=" hover:text-blue-800 transition">
                 <FaFacebook size={24} />
               </a>

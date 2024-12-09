@@ -5,11 +5,13 @@ import "./globals.css";
 import Footer from "@/components/Footer";
 import  NavBar  from "@/components/Navbar";
 
+
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Car Hub",
-  description: "Discover the best cars in the world.",
+  title: "Hekto Furniture",
+  description: "Discover the best furniture in the world.",
 };
 
 export default function RootLayout({

@@ -14,9 +14,9 @@ const ProductGrid: React.FC = () => {
 
   const products: Product[] = [
     { id: 1, name: "Cantilever chair", code: "Y523201", price: "$42.00", image: "chair1.png" },
-    { id: 2, name: "Cantilever chair", code: "Y523202", price: "$42.00", image: "chair2.png" },
-    { id: 3, name: "Cantilever chair", code: "Y523203", price: "$42.00", image: "chair3.png" },
-    { id: 4, name: "Cantilever chair", code: "Y523204", price: "$42.00", image: "chair4.png" },
+    { id: 2, name: "Cantilever chair", code: "Y523202", price: "$42.00", image: "chair3.png" },
+    { id: 3, name: "Cantilever chair", code: "Y523203", price: "$42.00", image: "chair1.png" },
+    { id: 4, name: "Cantilever chair", code: "Y523204", price: "$42.00", image: "chair3.png" },
   ];
 
   const handleClick = (id: number) => {
