@@ -54,21 +54,7 @@ const ContactPage: React.FC = () => {
                   <p>Free standard shipping on all orders.</p>
                 </div>
 
-                {/* Small Grids */}
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="w-full h-[53px] bg-gray-100 rounded flex items-center justify-center">
-                    <p className="text-sm font-medium">Grid 1</p>
-                  </div>
-                  <div className="w-full h-[53px] bg-gray-100 rounded flex items-center justify-center">
-                    <p className="text-sm font-medium">Grid 2</p>
-                  </div>
-                  <div className="w-full h-[53px] bg-gray-100 rounded flex items-center justify-center">
-                    <p className="text-sm font-medium">Grid 3</p>
-                  </div>
-                  <div className="w-full h-[53px] bg-gray-100 rounded flex items-center justify-center">
-                    <p className="text-sm font-medium">Grid 4</p>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>
