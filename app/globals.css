@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -9,8 +10,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Manrope", sans-serif;
+  
 }
-
+body{
+  background-color: white
+}
 /* START: General styles */
 .max-width {
   @apply max-w-[1920px] mx-auto;
@@ -35,26 +39,30 @@
 /* END: General styles */
 
 /* START: Hero styles */
-.hero {
-  @apply flex xl:flex-row flex-col gap-5 relative z-0 max-w-[1440px] mx-auto;
-}
+/* .hero {
+  @apply flex xl:flex-row flex-col relative z-0 bg-[#F2F0FF] max-w-[1920px] max-h-[764px] mx-auto;
+} */
 
-.hero__title {
+/* .hero__title {
   @apply xl:text-[30px] sm:text-[64px] text-[50px] xl:mt-5 xl:ml-28 font-extrabold;
-}
+} */
 
-.hero__subtitle {
+/* .hero__subtitle {
   @apply text-[27px] text-black-100 font-light mt-5;
-}
+} */
 
-.hero__image-container {
+/* .hero__image-container {
   @apply xl:flex-[1.5] flex justify-end items-end w-full xl:h-screen;
-}
+} */
 
-.hero__image {
+/* .hero__image {
   @apply relative xl:w-[506px] w-[90%] xl:h-[500px] h-[590px] mb-96 z-0;
-}
+} */
 /* END: Hero styles */
+
+.home__text-container {
+  @apply flex flex-col items-center justify-center gap-y-2.5 text-black-100;
+}
 
 /* START: Footer styles */
 .footer {

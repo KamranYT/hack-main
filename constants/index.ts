@@ -27,7 +27,7 @@
         { title: "Blog", url: "/" },
         { title: "Browse the Shop", url: "/" },
         { title: "Category", url: "/" },
-        { title: "Pre-Build Pages", url: "/contact" },
+        { title: "Pre-Build Pages", url: "/" },
         { title: "Visual Composer Elements", url: "/" },
         { title: "WooCommerce Pages", url: "/" },
       ],

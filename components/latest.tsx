@@ -4,7 +4,7 @@ function LatestProduct() {
   return (
     <div
       className="container mx-auto px-4 py-8"
-      style={{ backgroundColor: "white" }}
+      style={{ backgroundColor: "" }}
     >
       <h1 className="text-3xl font-bold text-center mb-8">Latest Products</h1>
 
@@ -29,11 +29,11 @@ function LatestProduct() {
               className="w-[250px] h-full xl:w-[223px] xl:h-[229px] object-cover rounded-t-lg mb-4"
             />
           </div>
-          <div className="bg-white p-4 rounded-b-lg">
+          <div className="flex justify-between bg-white p-8 rounded-b-lg">
             <h2 className="text-lg font-semibold mb-2">Comfort Handy Craft</h2>
             <div className="flex items-center">
-              <span className="text-pink-500 font-bold mr-2">$42.00</span>
-              <span className="text-gray-400 line-through">$65.00</span>
+              <span className="text-[#151875] font-bold mr-2">$42.00</span>
+              <span className="text-[#FB2448] line-through">$65.00</span>
             </div>
           </div>
         </div>
@@ -47,11 +47,11 @@ function LatestProduct() {
               className="w-[250px] h-full ml-14 xl:w-[245px] xl:h-[245px] object-cover rounded-t-lg mb-4"
             />
           </div>
-          <div className="bg-white p-4 rounded-b-lg">
+          <div className="flex justify-between bg-white p-8 rounded-b-lg">
             <h2 className="text-lg font-semibold mb-2">Comfort Handy Craft</h2>
             <div className="flex items-center">
-              <span className="text-pink-500 font-bold mr-2">$42.00</span>
-              <span className="text-gray-400 line-through">$65.00</span>
+              <span className="text-[#151875] font-bold mr-2">$42.00</span>
+              <span className="text-[#FB2448] line-through">$65.00</span>
             </div>
           </div>
         </div>
@@ -65,11 +65,11 @@ function LatestProduct() {
               className="w-[230px] h-full ml-14 object-cover rounded-t-lg mb-4"
             />
           </div>
-          <div className="bg-white p-4 rounded-b-lg">
+          <div className="flex justify-between bg-white p-10 rounded-b-lg">
             <h2 className="text-lg font-semibold mb-2">Comfort Handy Craft</h2>
             <div className="flex items-center">
-              <span className="text-pink-500 font-bold mr-2">$77.00</span>
-              <span className="text-gray-400 line-through">$65.00</span>
+              <span className="text-[#151875] font-bold mr-2">$77.00</span>
+              <span className="text-[#FB2448] line-through">$65.00</span>
             </div>
           </div>
         </div>
@@ -83,11 +83,11 @@ function LatestProduct() {
               className="w-[250px] h-full ml-14 object-cover rounded-t-lg mb-4"
             />
           </div>
-          <div className="bg-white p-4 rounded-b-lg">
+          <div className="flex justify-between bg-white p-4 rounded-b-lg">
             <h2 className="text-lg font-semibold mb-2">Comfort Handy Craft</h2>
             <div className="flex items-center">
-              <span className="text-pink-500 font-bold mr-2">$42.00</span>
-              <span className="text-gray-400 line-through">$65.00</span>
+              <span className="text-[#151875] font-bold mr-2">$42.00</span>
+              <span className="text-[#FB2448] line-through">$65.00</span>
             </div>
           </div>
         </div>
@@ -101,11 +101,11 @@ function LatestProduct() {
               className="w-[330px] h-full xl:w-[303px] xl:h-[264px] object-cover rounded-t-lg mb-4"
             />
           </div>
-          <div className="bg-white p-4 rounded-b-lg">
+          <div className="flex justify-between bg-white p-8 rounded-b-lg">
             <h2 className="text-lg font-semibold mb-2">Comfort Handy Craft</h2>
             <div className="flex items-center">
-              <span className="text-pink-500 font-bold mr-2">$42.00</span>
-              <span className="text-gray-400 line-through">$65.00</span>
+              <span className="text-[#151875] font-bold mr-2">$42.00</span>
+              <span className="text-[#FB2448] line-through">$65.00</span>
             </div>
           </div>
         </div>
@@ -119,11 +119,11 @@ function LatestProduct() {
               className="w-[340px] h-full xl:w-[360px] xl:h-[261px] object-cover rounded-t-lg mb-4"
             />
           </div>
-          <div className="bg-white p-4 rounded-b-lg">
+          <div className="flex justify-between bg-white p-4 rounded-b-lg">
             <h2 className="text-lg font-semibold mb-2">Comfort Handy Craft</h2>
             <div className="flex items-center">
-              <span className="text-pink-500 font-bold mr-2">$42.00</span>
-              <span className="text-gray-400 line-through">$65.00</span>
+              <span className="text-[#151875] font-bold mr-2">$42.00</span>
+              <span className="text-[#FB2448] line-through">$65.00</span>
             </div>
           </div>
         </div>

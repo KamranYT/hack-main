@@ -40,8 +40,8 @@ const ProductGrid: React.FC = () => {
             />
           </div>
           {selectedCard === product.id ? (
-            <div className="bg-blue-700 text-white p-4">
-              <button className="bg-green-500 text-white px-4 py-1 rounded-md mb-2">
+            <div className="bg-blue-700 text-white p-4 rounded-[30px]">
+              <button className="bg-[#08D15F] text-white px-4 py-1 rounded-md mb-2">
                 View Details
               </button>
               <h3 className="text-lg font-bold">{product.name}</h3>
@@ -54,7 +54,7 @@ const ProductGrid: React.FC = () => {
             <div className="p-2">
               <h3 className="text-pink-600 font-bold">{product.name}</h3>
               <p className="text-gray-500">
-                Code - <span className="text-blue-700 font-medium">{product.code}</span>
+                Code - <span className="text-[#151875] font-medium">{product.code}</span>
               </p>
               <p className="text-gray-800 mt-1">{product.price}</p>
             </div>

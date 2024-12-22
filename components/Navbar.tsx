@@ -5,6 +5,8 @@ import React from "react";
 import { RiShoppingCart2Line } from "react-icons/ri";
 import { CiHeart } from "react-icons/ci";
 import { IoMdLogIn } from "react-icons/io";
+import { FaSearch } from "react-icons/fa";
+
 import { useRouter } from "next/navigation"; // Correct import for useRouter in App Router
 
 const Header = () => {
@@ -20,7 +22,7 @@ const Header = () => {
   return (
     <div className="hidden md:block">
       {/* Top Banner */}
-      <div className="bg-[#7E33E0] text-white text-sm flex justify-center gap-[600px] items-center py-2 px-5">
+      <div className="bg-[#7E33E0] text-white text-xl flex justify-center gap-[400px] py-2 px-5">
         {/* Left Section */}
         <div className="flex items-center gap-4">
           <span>
@@ -39,19 +41,72 @@ const Header = () => {
         <div className="flex items-center gap-6">
           {/* Language Dropdown */}
           <div>
-            <select className="bg-transparent text-black font-bold cursor-pointer" defaultValue="English">
-              <option value="English">English</option>
-              <option value="French">French</option>
-            </select>
+          <select
+    className="bg-transparent text-white  cursor-pointer focus:outline-none"
+    defaultValue="Rupees"
+  >
+    <option value="English" className="bg-pink-500 text-black">
+      English
+    </option>
+    <option value="Urdu" className="bg-pink-500 text-black">
+      Urdu
+    </option>
+    <option value="Fransic" className="bg-pink-500 text-black">
+      Fransic
+    </option>
+    <option value="Arabic" className="bg-pink-500 text-black">
+      Arabic
+    </option>
+    <option value="Hindi" className="bg-pink-500 text-black">
+      Hindi
+    </option>
+    <option value="Spanish" className="bg-pink-500 text-black">
+      Spanish
+    </option>
+  </select>
+
           </div>
 
           {/* Currency Dropdown */}
           <div>
-            <select className="bg-transparent text-black font-bold cursor-pointer" defaultValue="Rupees">
-              <option value="INR">Rupees (INR)</option>
-              <option value="USD">US Dollar (USD)</option>
-            </select>
-          </div>
+  <select
+    className="bg-transparent text-white  cursor-pointer focus:outline-none"
+    defaultValue="Rupees"
+  >
+    <option value="INR" className="bg-pink-500 text-black">
+      Rupees (PKR)
+    </option>
+    <option value="PKR" className="bg-pink-500 text-black">
+      RUPEES (INR)
+    </option>
+    <option value="USD" className="bg-pink-500 text-black">
+      US Dollar (USD)
+    </option>
+    <option value="SAR" className="bg-pink-500 text-black">
+      Saudi Riyal (SAR)
+    </option>
+    <option value="EUR" className="bg-pink-500 text-black">
+      Euro (EUR)
+    </option>
+    <option value="USD" className="bg-pink-500 text-black">
+      US Dollar (USD)
+    </option>
+  </select>
+
+  <style jsx>
+    {`
+      select option {
+        background-color: #7E33E0; /* Tailwind's bg-pink-500 */
+        color: #000; /* Black text color */
+      }
+
+      select:focus {
+        outline: none;
+      }
+    `}
+  </style>
+</div>
+
 
           {/* Login Link */}
           <Link href="/" className="flex gap-1 font-serif">
@@ -59,9 +114,10 @@ const Header = () => {
           </Link>
 
           {/* Icons */}
-          <div className="flex gap-4">
-            <button className="hover:text-red-600">
-              <CiHeart className="w-[30px] h-[30px]" />
+          <div className="flex gap-10">
+            <button className="hover:text-red-600 flex">
+              
+              Wishlist <CiHeart className="w-[30px] h-[30px]" />
             </button>
             <Link href="/shop" className="text-5xl">
               <RiShoppingCart2Line className="w-[24px] h-[24px]" />
@@ -71,16 +127,16 @@ const Header = () => {
       </div>
 
       {/* Main Header */}
-      <header className="bg-white shadow-md px-5 py-3 flex justify-center gap-28 items-center">
+      <header className="bg-white shadow-md px-5 py-3 flex justify-center gap-28 text-2xl items-center">
         {/* Logo */}
-        <div className="text-2xl font-bold text-gray-800">Hekto</div>
+        <div className="text-4xl font-bold text-gray-800">Hekto</div>
 
         {/* Navigation */}
         <nav>
           <ul className="flex gap-6">
             <li>
               <select
-                className="bg-transparent text-black cursor-pointer"
+                className="bg-transparent text-pink-600 cursor-pointer"
                 defaultValue=""
                 onChange={handleNavigation}
               >
@@ -107,8 +163,8 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link href="/shop" className="hover:text-gray-700">
-                Shop
+              <Link href="/shops" className="hover:text-gray-700">
+                Shops
               </Link>
             </li>
             <li>
@@ -124,13 +180,13 @@ const Header = () => {
           <input
             type="text"
             placeholder="What are you looking for?"
-            className="w-full border border-gray-300 rounded-full px-4 py-2 outline-none focus:ring-2 focus:ring-black"
+            className="w-full border border-gray-300 px-4 py-2 outline-none focus:ring-2 focus:ring-black"
           />
           <button
             type="submit"
-            className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-black"
+            className="absolute right-3 top-1/2 bg-pink-600 transform -translate-y-1/2 text-white hover:text-black"
           >
-            🔍
+            <FaSearch />
           </button>
         </div>
       </header>
